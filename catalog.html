@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Дизайн студия Nerds</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн студии Nerds">
+
+      <ul>
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li>Магазин</li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#">Корзина</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-group"
+                id="filter-adaptive" checked>
+              <label for="filter-adaptive">Адаптивная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-group"
+                id="filter-fixed">
+              <label for="filter-fixed">Фиксированная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-group"
+                id="filter-rubber">
+              <label for="filter-rubber">Резиновая</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider"
+                id="filter-slider" checked>
+              <label for="filter-slider">Слайдер</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages"
+                id="filter-advantages">
+              <label for="filter-advantages">Блок преимуществ</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news"
+                id="filter-news" checked>
+              <label for="filter-news">Новости</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery"
+                id="filter-gallery">
+              <label for="filter-gallery">Галерея</laber>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="trash"
+                id="filter-trash">
+              <label for="filter-trash">Корзина</laber>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
+      </form>
+
+
+    </section>
+
+
+  </main>
+
+
+  <!--footer-->
+  <footer>
+    <ul>
+      <li><a href="#">VK</a></li>
+      <li><a href="#">FB</a></li>
+      <li><a href="#">INS</a></li>
+    </ul>
+
+    <p>Давайте дружить, это выгодно!</p>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+
+  </footer>
+
+</body>
+
+</html>
