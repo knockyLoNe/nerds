@@ -440,7 +440,7 @@ position: relative;
   margin-top: 40px;
   background-image: url('../img/map.jpg');
   background-repeat: no-repeat;
-
+  margin-top: 80px;
 }
 
 
@@ -483,12 +483,15 @@ position: relative;
 .footer-social {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   margin: 0;
   padding: 0;
   width: 260px;
 
   list-style: none;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .footer-social li {
@@ -497,7 +500,54 @@ position: relative;
 
   background-color: #e5e0e0;
   border-radius: 50%;
+  cursor: pointer;
 }
+
+.footer-vk a {
+  background-image: url(../img/vk-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 40%;
+  display: block;
+  width: 26px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.footer-fb a {
+  background-image: url(../img/fb-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 36%;
+  display: block;
+  width: 12px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.footer-inst a {
+  background-image: url(../img/insta-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 36%;
+  display: block;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.footer-social li:hover {
+  background-color: #e74246;
+}
+
+.footer-social li:focus {
+  background-color: #d7373b;
+  opacity: 0.3;
+}
+
 
 .footer-text {
   width: 560px;
@@ -509,12 +559,16 @@ position: relative;
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
+  margin-bottom: 17px;
 }
+
+
 
 .footer-info {
   font-size: 16px;
   line-height: 22px;
   margin-top: 0;
+  margin-bottom: 80px;
 }
 
 .footer-date {
