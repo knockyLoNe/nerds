@@ -35,7 +35,8 @@
     </nav>
   </header>
 
-  <main>
+  <main class="">
+    <div class="catalog-columns">
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
 
@@ -58,7 +59,7 @@
           </div>
         </fieldset>
         
-        <fieldset>
+        <fieldset class="filter-radio-option">
           <legend>Сетка:</legend>
           <ul>
             <li class="filter-option">
@@ -79,7 +80,7 @@
           </ul>
         </fieldset>
 
-        <fieldset>
+        <fieldse class="filter-checkbox-option">
           <legend>Особенности:</legend>
           <ul>
             <li class="filter-option">
@@ -111,34 +112,53 @@
         </fieldset>
         <button type="submit" class="filter-button button">Показать</button>
       </form>
-
-      <section>
-        <h2>Список сделанных сайтов</h2>
-        <ul>
-
-
-          <li>Sedona</li>
-          <li>Pink</li>
-          <li>borodynsky</li>
-          <li>Mishka</li>
-          <li>Aplus</li>
-          <li>Kvast</li>
-
-
-        </ul>
-      </section>
-
-      <div class="pagination">
-        <ul>
-          <li><a href=" " class="active">1</a></li>
-          <li><a href=" ">2</a></li>
-          <li><a href=" ">3</a></li>
-          <li><a href=" ">Следующая</a></li>
-        </ul>
-      </div>
-
     </section>
 
+      <section class="catalog">
+        <h2>Список сделанных сайтов</h2>
+        <ul class="catalog-list">
+
+
+          <li class="catalog-item">
+            <a><img src="img/img-sedona.jpg" alt="Макет Sedona"></a>
+          </li>
+
+          <li class="catalog-item">
+            <a><img src="img/img-pink.jpg" alt="Макет Pink"></a>
+          </li>
+
+          <li class="catalog-item">
+            <a><img src="img/img-barbershop.jpg" alt="Макет Barbershop"></a>
+          </li>
+          
+          <li class="catalog-item">
+            <a><img src="img/img-mishka.jpg" alt="Макет Mishka"></a>
+          </li>
+
+          <li class="catalog-item">
+            <a><img src="img/img-aplus.jpg.png" alt="Макет A-plus"></a>
+          </li>
+
+          <li class="catalog-item">
+            <a><img src="img/img-kvast.jpg" alt="Макет Kvast"></a>
+          </li>
+        </ul>
+
+      
+
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-item-current"><a href="">1</a></li>
+          <li class="pagination-item"><a href=" ">2</a></li>
+          <li class="pagination-item"><a href=" ">3</a></li>
+          <li class="pagination-item"><a href=" ">Следующая</a></li>
+        </ul>
+      </div>
+    </section>
+     
+
+   
+  </div>
     <section class="map container">
       
       <div class="adress">
@@ -150,7 +170,7 @@
       </div>
    
     </section>
-
+  
   </main>
 
 
