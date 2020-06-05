@@ -37,7 +37,7 @@
 
   <!--Главная-->
 
-  <main class="container">
+  <main>
 
     <section class="slider">
       <div class="container">
@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <div class="features">
+    <div class="features container">
       <ul class="features-list">
         <li class="features-item">
           <img src="img/illustration-1.jpg" width="300" height="148" alt="Веб сайты">
@@ -95,9 +95,9 @@
       </ul>
     </div>
 
-    <div class="grey-line"></div>
+    <div class="grey-line container"></div>
 
-    <section class="about">
+    <section class="about container">
       <div class="news">
         <h3>Мы — маленькая, но гордая<br> дизайн-студия из Краснодара. </h3>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <div class="projects">
+    <div class="projects container">
       <h2 class="visually-hidden">Список разработанных сайтов</h2>
 
       <div class="grey-line"></div>
@@ -167,7 +167,7 @@
       <div class="grey-line"></div>
     </div>
 
-    <section class="map">
+    <section class="map container">
       
       <div class="adress">
         <h2 class="visually-hidden">Контактная информация</h2>
@@ -196,8 +196,35 @@
   </footer>
 
 
+ <!-- Центральная всплывающая кнопка !!! -->
 
+ <div class="modal-answer">
+  <h2>Напишите нам</h2>
+  <form action="http://echo.htmlacademy.ru" method="post">
+    <button class="modal-close" type="button">
+      <span class="hide-text">Закрыть</span>
+    </button>
+    <fieldset class="modal-fieldset">
+      <legend class="hide-text">Рассылка</legend>
+      <div class="position-form-p">
+      <p>Ваше имя:</p>
+      <p>Ваш e-mail:</p>
+      </div>
+      <div class="position-form">
+      <label><input type="text" placeholder="Имя Фамилия" required /></label>
+      <label><input type="email" placeholder="email@example.com" required /></label>
+      </div>
+      <p>Текст Письма:</p>
+      <label><textarea name="comment" cols="40" rows="3" placeholder="В свободной форме"></textarea></label>
 
+      <button class="button button-fielsd" type="submit">Отправить</button>
+    </fieldset>
+  </form>
+</div>
+
+<div class="overlay"></div>
+
+  <script src="./js/script.js"></script>
 
 
 
