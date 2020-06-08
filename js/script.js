@@ -1,16 +1,14 @@
-var link = document.querySelector('.adress .button');
-var popup = document.querySelector('.modal-answer');
-var close = document.querySelector('.modal-close');
+var link = document.querySelector(".adress .button");
+var popup = document.querySelector(".modal-answer");
+var close = document.querySelector(".modal-close");
 
-var body = document.querySelector('.wrapper');
-
-
-link.addEventListener('click', function (evt) {
+link.addEventListener("click", function (evt) {
   evt.preventDefault();
-  popup.classList.add('modal');
+  popup.classList.add("modal");
+  console.log("open close");
 });
 
-close.addEventListener('click', function (evt) {
+close.addEventListener("click", function (evt) {
   evt.preventDefault();
-  popup.classList.remove('modal');
+  popup.classList.remove("modal");
 });
